@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - IHL Réparation</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/firebase.js"></script>
+  <script defer src="js/contact.js"></script>
+</head>
+<body>
+  <h2>Contactez un admin</h2>
+  <form id="contactForm">
+    <input type="text" id="pseudo" placeholder="Votre pseudo" required /><br />
+    <input type="email" id="email" placeholder="Votre email" required /><br />
+    <textarea id="message" placeholder="Votre message" required></textarea><br />
+    <button type="submit">Envoyer</button>
+  </form>
+  <div id="adminMessages"></div>
+</body>
+</html>
